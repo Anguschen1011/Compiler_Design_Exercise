@@ -1,0 +1,64 @@
+b1043003@b1043003-VirtualBox:~/文件/proj_2$ ./parser
+Keyword: print
+Parentheses: (
+Unrecognized: '
+Identifier: Hello
+Identifier: world
+Unrecognized: '
+Parentheses: )
+
+Identifier: num1
+Operator: =
+Integer: 20
+
+Identifier: num2
+Operator: =
+Integer: 3
+
+Identifier: add
+Operator: =
+Identifier: num1
+Operator: +
+Identifier: num2
+
+Identifier: sub
+Operator: =
+Identifier: num1
+Operator: -
+Identifier: num2
+
+Identifier: mul
+Operator: =
+Identifier: num1
+Operator: *
+Identifier: num2
+
+Identifier: div
+Operator: =
+Identifier: num1
+Operator: /
+Identifier: num2
+
+Keyword: print
+Parentheses: (
+Identifier: add
+Parentheses: )
+
+Keyword: print
+Parentheses: (
+Identifier: sub
+Parentheses: )
+
+Keyword: print
+Parentheses: (
+Identifier: mul
+Parentheses: )
+
+Keyword: print
+Parentheses: (
+Identifier: div
+Parentheses: )
+
+********** Output Count **********
+Total lines: 11
+

@@ -1,0 +1,58 @@
+b1043003@b1043003:~$ ./lexer < test.py
+Keyword: print
+Unrecognized: (
+Unrecognized: '
+Identifier: Hello
+Identifier: world
+Unrecognized: '
+Unrecognized: )
+Identifier: num1
+Operator: =
+Integer: 20
+Identifier: num2
+Operator: =
+Integer: 3
+Identifier: add
+Operator: =
+Identifier: num1
+Operator: +
+Identifier: num2
+Identifier: sub
+Operator: =
+Identifier: num1
+Operator: -
+Identifier: num2
+Identifier: mul
+Operator: =
+Identifier: num1
+Operator: *
+Identifier: num2
+Identifier: div
+Operator: =
+Identifier: num1
+Operator: /
+Identifier: num2
+Keyword: print
+Unrecognized: (
+Identifier: add
+Unrecognized: )
+Keyword: print
+Unrecognized: (
+Identifier: sub
+Unrecognized: )
+Keyword: print
+Unrecognized: (
+Identifier: mul
+Unrecognized: )
+Keyword: print
+Unrecognized: (
+Identifier: div
+Unrecognized: )
+********** Output Count **********
+Keyword count: 5
+Identifier count: 20
+Integer count: 2
+String count: 0
+Operator count: 10
+Unrecognized count: 12
+
